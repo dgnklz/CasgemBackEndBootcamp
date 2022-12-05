@@ -1,0 +1,9 @@
+package com.kodlamaio.bootCampProject.entities.constants;
+
+public class ApplicationState {
+	int id;
+	
+	int State;
+	
+	
+}

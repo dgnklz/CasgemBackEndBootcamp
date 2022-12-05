@@ -1,0 +1,7 @@
+package com.kodlamaio.bootCampProject.entities.constants;
+
+public enum BootcampState {
+	OPENED,
+	CLOSED,
+	DELAYED
+}

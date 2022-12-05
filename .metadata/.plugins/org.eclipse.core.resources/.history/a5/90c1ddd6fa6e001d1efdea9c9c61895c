@@ -1,0 +1,5 @@
+package com.kodlamaio.bootCampProject.entities.constants;
+
+public class BootcampState {
+	
+}

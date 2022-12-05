@@ -1,0 +1,26 @@
+1669140317399	Delete element
+1669141469645	Rename type 'InstructorCreateResponse'
+1669141482165	Rename type 'InstructorDeleteResponse'
+1669141494963	Rename type 'InstructorGetAllResponse'
+1669141505244	Rename type 'InstructorUpdateResponse'
+1669141515629	Rename type 'InstructorCreateRequest'
+1669141527970	Rename type 'InstructorDeleteRequest'
+1669141537820	Rename type 'InstructorUpdateRequest'
+1669144811138	Delete element
+1669192099233	Move compilation unit
+1669194134852	Rename type 'UserCreateRequest'
+1669194145010	Rename type 'UserDeleteRequest'
+1669207033774	Move compilation units
+1669207106066	Delete element
+1669207149462	Delete element
+1669207190484	Delete element
+1669207193060	Delete element
+1669291578988	Rename type 'Messages'
+1669293833704	Rename type 'Applications'
+1669314203221	Rename type 'MessagesForEmployee'
+1669316850643	Move compilation units
+1669317804914	Move compilation units
+1669360380336	Delete element
+1669362154107	Move compilation unit
+1669363046996	Delete element
+1669394490447	Move compilation unit

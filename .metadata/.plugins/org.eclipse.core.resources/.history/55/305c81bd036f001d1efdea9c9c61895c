@@ -1,0 +1,30 @@
+package com.kodlamaio.bootCampProject.entities.constants;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Table(name = "aplicationStates")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ApplicationState {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id", updatable = false)
+	int id;
+	
+	@Column(name = "applicationState")
+	private String applicationStateName;
+	
+//	@OneToMany(mappedBy = "applicationState")
+//	private List<Application> aplications;
+}

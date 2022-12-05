@@ -1,0 +1,19 @@
+package com.kodlamaio.bootCampProject.entities.constants;
+
+import javax.persistence.Column;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+public class BootcampState {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id", updatable = false)
+	int id;
+	
+	@Column(name = "bootcampStateName")
+	private String bootcampStateName;
+	
+//	@OneToMany(mappedBy = "bootcampState")
+//	private List<Bootcamp> bootcamps;
+}

@@ -1,0 +1,11 @@
+package com.kodlamaio.bootCampProject.entities.constants;
+
+import java.util.List;
+
+import com.kodlamaio.bootCampProject.entities.applications.Application;
+
+public class ApplicationState {
+	int id;
+	String name;
+	private List<Application> aplications;
+}
